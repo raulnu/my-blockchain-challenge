@@ -18,11 +18,12 @@ export default function Home() {
       </Head>
       <main className="min-h-screen flex flex-col">
         <Header />
-        <section className="flex-grow bg-gradient-to-b from-cyan-50 to-cyan-100">
+        <section className="flex-grow bg-gradient-to-b from-cyan-50 to-cyan-100 flex flex-col">
           {articles.map((article, index) => {
             return (
               <Article
                 key={index}
+                id={article.id}
                 title={article.title}
                 content={article.content}
               />

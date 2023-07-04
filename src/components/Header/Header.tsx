@@ -4,7 +4,7 @@ export default function Header() {
       <h1 className="text-3xl font-medium text-gray-900">
         <a href="/">My Blockchain Challenge</a>
       </h1>
-      <p className="text-xl text-gray-900">By Raúl Navarro</p>
+      <p className="text-xl text-gray-800">By Raúl Navarro</p>
     </header>
   );
 }
