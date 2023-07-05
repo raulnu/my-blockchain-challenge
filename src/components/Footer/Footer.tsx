@@ -6,17 +6,22 @@ export default function Footer() {
           <a
             className="p-2"
             href="https://www.linkedin.com/in/raul-navarro-uribe/"
+            target="_blank"
           >
             LinkedIn
           </a>
         </span>
         <span>
-          <a className="p-2" href="https://github.com/raulnu">
+          <a className="p-2" href="https://github.com/raulnu" target="_blank">
             Github
           </a>
         </span>
         <span>
-          <a className="p-2" href="mailto:raul.navarro.uribe@gmail.com">
+          <a
+            className="p-2"
+            href="mailto:raul.navarro.uribe@gmail.com"
+            target="_blank"
+          >
             Email
           </a>
         </span>
